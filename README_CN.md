@@ -22,9 +22,7 @@
 
 ```yaml
 - name: Run generate.py
-  run: python generate.py --url YOUR_URL_HERE
-```
-
+  run: python generate.py --url https://gist.githubusercontent.com/Limeeeee1/a1439646180a630e79af1b261108b2ba/raw/a6e783feed425b8f6858f4b4aa1c160c6957e682/nodes.txt
 ### 3. 执行工作流任务
 
 可以在你fork之后项目的`Actions`部分，查看工作流任务的状态和详情。你也可以在这里手动执行任务。\
